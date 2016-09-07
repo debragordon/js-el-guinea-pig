@@ -1,6 +1,9 @@
 * {
   margin: 0px;
   padding: 0px;
+}
+
+body {
   background: goldenrod;
   color: white;
   font-family: Arial;
@@ -8,7 +11,7 @@
 
 input {
   width: 300px;
-  height: 100px;
+  height: 20px;
   background: white;
   border: 1px solid white;
   padding: 5px;
@@ -33,12 +36,12 @@ li {
   border: none;
   color: saddlebrown;
   border-radius: 5px;
-  padding: 5px 20px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   font-size: 14px;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .space {
@@ -46,8 +49,38 @@ li {
   padding: 5px;
 }
 
+.hulk {
+  font-size: 3em;
+}
+
+.answer {
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
 .center {
   margin: 0 auto;
   text-align: center;
   width: 60%;
+}
+
+section:nth-child(1) {
+  font-weight: bold;
+}
+
+section:nth-child(6) {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.blue {
+  color: blue;
+}
+
+.border {
+  border: 2px solid green;
+}
+
+.rounded {
+  border-radius: 25px;
 }
